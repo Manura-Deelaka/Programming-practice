@@ -7,13 +7,12 @@ funtionSumOfMultiplies = () => {
             sum += i;
         }
     }
-
     alert("Sum of multiples of 3 and 5 below 1000 : "+sum);
 }
 
 funtionSumOfMultiplies();
 
-funtionSumOfMultipliesParam = (a,b,n) => {
+sumOfMultipliesParamFunction = (a,b,n) => {
 
     let sum = 0;
     for(let i = 0; i < n; i++){
@@ -21,6 +20,5 @@ funtionSumOfMultipliesParam = (a,b,n) => {
             sum += i;
         }
     }
-
-    alert("Sum of multiples of "+a+ " and " +b+ " below " +n+" : "+sum);
+    alert("Sum of multiples of "+ a + " and " + b + " below " + n +" : "+ sum);
 }
